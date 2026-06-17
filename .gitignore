@@ -1,0 +1,36 @@
+# dependencies
+node_modules
+
+# next.js
+.next/
+.swc/
+
+# env files
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# test coverage
+coverage/*
+
+# allure reports
+allure-results/
+allure-report/
+
+# playwright
+playwright-report/
+test-results/
+e2e/.auth/
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# claude memory (local only)
+.claude/settings.local.json
